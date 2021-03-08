@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: 50% 120%;
+}
+
+.heading-text {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 20px;
+  color: rgba(0, 0, 0, 0.3);
+}

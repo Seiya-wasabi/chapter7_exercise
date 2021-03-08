@@ -5,10 +5,6 @@
   color: #6c6b6b;
 }
 
-body {
-  margin: 0;
-}
-
 .header {
   height: 400px;
   background-image: url(img/mv.jpg);
@@ -24,19 +20,15 @@ body {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.main-content {
+main {
   width: 840px;
-
-}
-
-.main {
-  width: 840px;
-  display: inline-block;
-  margin: 0 auto;
+  display: block;
 }
 
 .item {
+  text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
 }
